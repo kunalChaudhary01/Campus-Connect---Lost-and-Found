@@ -1,8 +1,19 @@
-Backend/.env
-Backend/.venv/
-Backend/__pycache__/
-Backend/app/**/__pycache__/
-Backend/*.db
-Frontend/node_modules/
-Frontend/dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
 *.py[cod]
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Other generated files
+.ipynb_checkpoints/
